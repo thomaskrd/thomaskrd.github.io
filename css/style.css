@@ -1,5 +1,42 @@
-html{
-    font-family: "Lucida Console", "Courier New", monospace;
-    background-color:black;
-    color:grey;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, 'Courier New', monospace;
+    background-color: black;
+    color: white;
+}
+
+.powershell-window {
+    border: 2px solid #333;
+    background-color: black;
+    width: 80%;
+    height: 80vh;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title-bar {
+    background-color: #2b5797;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.console {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.command-line {
+    display: flex;
+}
+
+.prompt {
+    color: lightgreen;
+    margin-right: 5px;
+}
+
+.input-area {
+    flex-grow: 1;
 }
