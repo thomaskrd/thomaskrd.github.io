@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-.powershell-window {
+.cmd-window {
     border: 2px solid #333;
     background-color: black;
     width: 80%;
@@ -17,10 +17,12 @@ body {
 }
 
 .title-bar {
-    background-color: #2b5797;
+    background-color: #1c1c1c;
     padding: 5px;
     color: white;
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .console {
@@ -33,10 +35,11 @@ body {
 }
 
 .prompt {
-    color: lightgreen;
+    color: white;
     margin-right: 5px;
 }
 
 .input-area {
     flex-grow: 1;
+    color: lime; /* Blinking cursor color */
 }
